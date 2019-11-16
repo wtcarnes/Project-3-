@@ -24,7 +24,7 @@ app.config[' SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 
-from .models import Pet
+from models import Pet
 
 
 # create route that renders index.html template
